@@ -1,0 +1,145 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+   background-color:#0C1F2C;
+   color:#FFFFFF;
+   /* #A9A9A9 */
+}
+.errormessage{
+    color: #FF0000;
+
+    text-align: center;
+}
+.mainheading{
+    text-align: center;
+    font-style: italic;
+}
+.Movies_conatiner{
+    margin:30px;
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+    flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+.searchcardcontainer{
+   
+    margin-top:30px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.searchnamecards{
+    background-color: #1A3140;
+    width:150px;
+    min-height:200px;
+    padding:20px;
+   
+    border:2px white double;
+}
+.searchnamecards:hover{
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+.searchcardimg{
+    width:100px;
+    height:100px;
+    display: block;
+    margin:10px auto;
+}
+.searchcardcontent{
+    font-size: 10px;
+}
+.searchcardcontent h4{
+    text-align: center;
+}
+.searchcardcontent span{
+    font-weight: 700;
+}
+.idcardcontainer{
+    margin-top:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:30px;
+}
+.id{
+    background-color: #1A3140;
+    width:250px;
+    min-width: 200px;
+    padding:20px;
+}
+.id1{
+    background-color: #1A3140;
+    width:600px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: row;
+ font-size: 10px;
+ gap:30px;
+ margin:15px auto;
+ padding:20px;
+ border:2px white double;
+ border-radius: 20px;
+}
+.idcardcontent{
+   
+
+    font-size: 10px;
+}
+.idcardimg{
+    width:150px;
+    height:150px;
+    display: block;
+    margin:10px auto;
+}
+
+.form{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap:20px;
+}
+ input{
+    padding:5px 20px;
+}
+  button{
+    padding:8px 15px;
+    font-size: 10px;
+    border-radius: 10px;
+    border:none;
+}
+button:hover{
+    color:	#5A5A5A;
+    transform: scale(1.1);
+
+}
+.navbar{
+   background-color: #FFFFFF;
+   width:500px;
+   margin:10px auto;
+    border-radius:25px;
+}
+.nav_container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:5px;
+}
+.items{
+    list-style: none;
+    text-decoration: none;
+}
+ .colorchange{
+    color:#000000;
+    text-decoration: none;
+}
+.colorchange:hover{
+    text-decoration: wavy;
+}
